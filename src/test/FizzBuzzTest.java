@@ -7,8 +7,12 @@ import org.junit.jupiter.api.Test;
 class FizzBuzzTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void fizzBuzz() {
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		int input = 1;
+		String expected = "1";
+		String actual = fizzBuzz.fizzBuzz(input);
+		assertEquals(expected, actual);
 	}
 
 }
